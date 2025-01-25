@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.header {
+  background: #282c34;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.header .logo {
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  color: white;
+  background: #007bff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+.features .feature-item, .approach-services .service-item {
+  background: #f4f4f4;
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 1rem 0;
+}
+
+.features .feature-item {
+  margin: 1rem 0;
+}
+
+.approach-services .service-row {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.approach-services .service-item {
+  flex: 1;
+  text-align: center;
+  max-width: 300px;
+}
+
+.approach-services .service-item img {
+  max-width: 100px;
+  margin-bottom: 1rem;
+}
+
+.footer {
+  background: #282c34;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.footer .social-links a {
+  color: white;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
