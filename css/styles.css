@@ -1,0 +1,55 @@
+/* Custom Styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.hero-section {
+  padding: 150px 0;
+  text-align: left;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+}
+
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Animation delays */
+.animate__animated {
+  animation-duration: 1s;
+}
+
+.animate__delay-1s {
+  animation-delay: 1s;
+}
+
+.animate__delay-2s {
+  animation-delay: 2s;
+}
+
+.animate__delay-3s {
+  animation-delay: 3s;
+}
+
+/* Testimonials Section */
+blockquote {
+  font-style: italic;
+  color: #555;
+}
+
+blockquote footer {
+  margin-top: 10px;
+  font-weight: bold;
+}
